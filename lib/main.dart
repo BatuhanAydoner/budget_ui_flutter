@@ -1,3 +1,4 @@
+import 'package:budget_ui_flutter/screens/home_screeen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,6 +8,11 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      title: "Flutter Budget UI",
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primaryColor: Colors.green),
+      home: HomeScreen(),
+    );
   }
 }
