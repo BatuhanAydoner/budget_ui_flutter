@@ -1,6 +1,8 @@
-# budget_ui_flutter
+# Budget UI Flutter
 
-A new Flutter application.
+A Budget app UI example.
+
+<img src="https://github.com/BatuhanAydonerDev/budget_ui_flutter/blob/master/app_gif.gif?raw=true" alt="Budget UI" width="300"/>
 
 ## Getting Started
 
